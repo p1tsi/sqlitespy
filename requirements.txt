@@ -1,0 +1,5 @@
+frida>=14.0.5
+frida-tools>=9.0.0
+click>=8.0.4
+sqlparse==0.4.2
+setuptools~=57.0.0

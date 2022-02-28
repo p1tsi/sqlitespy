@@ -1,0 +1,5 @@
+.idea/
+agent/node_modules
+*.pyc
+_agent.js
+venv/
