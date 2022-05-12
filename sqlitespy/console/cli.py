@@ -12,12 +12,12 @@ class SQLiteSpyApplication(ConsoleApplication, UI):
         return True
 
     def _add_options(self, parser):
-        parser.add_argument('-r', '--print-result-set',
-                            help="Parse 'SELECT' queries result set",
-                            action='store_true')
-        parser.add_argument('-v', '--verbose',
-                            help="Print all queries (also PRAGMA and transactions ones)",
-                            action='store_true')
+        parser.add_option('-r', '--print-result-set',
+                          help="Parse 'SELECT' queries result set",
+                          action='store_true')
+        parser.add_option('-v', '--verbose',
+                          help="Print all queries (also PRAGMA and transactions ones)",
+                          action='store_true')
 
     def _initialize(self, parser, options, args):
         self._should_parse = options.print_result_set or False

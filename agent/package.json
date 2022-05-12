@@ -1,6 +1,6 @@
 {
-  "name": "sqlite-spy",
-  "version": "0.1.0",
+  "name": "sqlitespy",
+  "version": "0.1.1",
   "description": "SQLite API interceptor.",
   "main": "src/index.ts",
   "scripts": {

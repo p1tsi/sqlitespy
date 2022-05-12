@@ -1,5 +1,5 @@
 default: compile-agent
 
 compile-agent:
-	cd agent && npm run build
+	cd agent && npm install && npm run build
 
